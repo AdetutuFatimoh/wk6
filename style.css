@@ -216,9 +216,32 @@ color: var(--text-color2);
     padding: 3em 0;
     margin: auto;
     gap: 2em;
+    position: absolute;
+    left: 10fr;
+    bottom: 10fr;
   }
   div{
     margin: auto;
   }
-
+  .part3{
+    padding: 0.5em 0.5em;
+    border: 3px solid var(--text-color2);
+    width: 40%;
+    length: 40%;
+    margin-right: 10%;
+  }
+  .part4{
+    padding: 0.5em 0.5em;
+    border: 3px solid var(--text-color2);
+    width: 40%;
+    length: 40%;
+    margin-right: 10%;
+  }
+  .part5{
+    padding: 0.5em 0.5em;
+    border: 3px solid var(--text-color2);
+    width: 40%;
+    margin-right: 10%;
+    length: 40%;
+  }
 }
