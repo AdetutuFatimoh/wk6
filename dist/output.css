@@ -779,16 +779,24 @@ video {
   height: 5rem;
 }
 
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-5 {
+  height: 1.25rem;
+}
+
 .h-\[150px\] {
   height: 150px;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
 .h-\[80vh\] {
   height: 80vh;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .min-h-\[160\] {
@@ -805,6 +813,14 @@ video {
 
 .w-4\/5 {
   width: 80%;
+}
+
+.w-5 {
+  width: 1.25rem;
+}
+
+.w-\[80vh\] {
+  width: 80vh;
 }
 
 .flex-shrink {
@@ -1319,10 +1335,20 @@ video {
   justify-items: stretch;
 }
 
+.gap-2 {
+  gap: 0.5rem;
+}
+
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.5rem * var(--tw-space-x-reverse));
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-44 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(11rem * var(--tw-space-x-reverse));
+  margin-left: calc(11rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
@@ -1695,8 +1721,17 @@ video {
   border-bottom-width: 1px;
 }
 
+.border-y-8 {
+  border-top-width: 8px;
+  border-bottom-width: 8px;
+}
+
 .border-b {
   border-bottom-width: 1px;
+}
+
+.border-b-8 {
+  border-bottom-width: 8px;
 }
 
 .border-e {
@@ -1717,6 +1752,10 @@ video {
 
 .border-t {
   border-top-width: 1px;
+}
+
+.border-b-2 {
+  border-bottom-width: 2px;
 }
 
 .border-solid {
@@ -1741,6 +1780,11 @@ video {
 
 .border-none {
   border-style: none;
+}
+
+.border-b-white {
+  --tw-border-opacity: 1;
+  border-bottom-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-\[\#181818\] {
@@ -1773,25 +1817,109 @@ video {
   background-color: rgb(202 138 4 / var(--tw-bg-opacity));
 }
 
+.bg-teal-50 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 250 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .bg-\[url\(\.\.\/img\.jpg\)\] {
   background-image: url(../img.jpg);
-}
-
-.bg-gradient-to-tr {
-  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
-}
-
-.bg-\[url\(\.\.\/puma\/image\.webp\)\] {
-  background-image: url(../puma/image.webp);
 }
 
 .bg-\[url\(\.\.\/pumaimage\.webp\)\] {
   background-image: url(../pumaimage.webp);
 }
 
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/079725\/01\/fnd\/DFA\/fmt\/png\/Fast-Track-Portable-Bag\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/079725/01/fnd/DFA/fmt/png/Fast-Track-Portable-Bag);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/307193\/01\/sv01\/fnd\/DFA\/fmt\/png\/Scuderia-Ferrari-Drift-Cat-Decima-Motorsport-Shoes\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/307193/01/sv01/fnd/DFA/fmt/png/Scuderia-Ferrari-Drift-Cat-Decima-Motorsport-Shoes);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/386450\/01\/sv01\/fnd\/DFA\/fmt\/png\/Mayze-Stack-Retro-Grade-Sneakers-Women\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/386450/01/sv01/fnd/DFA/fmt/png/Mayze-Stack-Retro-Grade-Sneakers-Women);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/390537\/01\/sv01\/fnd\/DFA\/fmt\/png\/Luxe-Sport-Velophasis-Sneakers\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/390537/01/sv01/fnd/DFA/fmt/png/Luxe-Sport-Velophasis-Sneakers);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/390537\/02\/sv01\/fnd\/DFA\/fmt\/png\/Luxe-Sport-Velophasis-Sneakers\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/390537/02/sv01/fnd/DFA/fmt/png/Luxe-Sport-Velophasis-Sneakers);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/390986\/02\/sv01\/fnd\/DFA\/fmt\/png\/Cilia-Space-Metallics-Sneakers-Women\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/390986/02/sv01/fnd/DFA/fmt/png/Cilia-Space-Metallics-Sneakers-Women);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/538023\/20\/mod01\/fnd\/DFA\/fmt\/png\/Track-Meet-Shorts-Men\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/538023/20/mod01/fnd/DFA/fmt/png/Track-Meet-Shorts-Men);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/538023\/92\/mod01\/fnd\/DFA\/fmt\/png\/Track-Meet-Shorts-Men\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/538023/92/mod01/fnd/DFA/fmt/png/Track-Meet-Shorts-Men);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/539016\/82\/mod01\/fnd\/DFA\/fmt\/png\/LUXE-SPORT-Gilet\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/539016/82/mod01/fnd/DFA/fmt/png/LUXE-SPORT-Gilet);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/539017\/01\/mod01\/fnd\/DFA\/fmt\/png\/LUXE-SPORT-T7-Printed-Jacket-Men\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/539017/01/mod01/fnd/DFA/fmt/png/LUXE-SPORT-T7-Printed-Jacket-Men);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/539020\/92\/fnd\/DFA\/fmt\/png\/Track-Meet-T7-Track-Jacket-Men\)\] {
+  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/539020/92/fnd/DFA/fmt/png/Track-Meet-T7-Track-Jacket-Men);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EKids\%7EEEA-mobile-version-pokemon-aw22-k\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EKids%7EEEA-mobile-version-pokemon-aw22-k.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EMen\%7E23SS_GE_Ecom_Spring_Keystory1_Group3_00223_1536x1536px\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EMen%7E23SS_GE_Ecom_Spring_Keystory1_Group3_00223_1536x1536px.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EWomen\%7E23SS_GE_Ecom_Spring_Keystory1_Group5_00214_1536x1536px\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EWomen%7E23SS_GE_Ecom_Spring_Keystory1_Group5_00214_1536x1536px.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EMOTORSPORT\%7E23SS\+MS\+CAR\+CLUB\+-\+BMW\%7E23SS_ECOM_MF_SP_MS-CAR-CLUB_BMW_TrendingInline_TabMob_1536x1536_Look-1\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EMOTORSPORT%7E23SS+MS+CAR+CLUB+-+BMW%7E23SS_ECOM_MF_SP_MS-CAR-CLUB_BMW_TrendingInline_TabMob_1536x1536_Look-1.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7ESPORTSTYLE\%7ECALI\+DREAM\%7E23SS_ECOM_MF_SP_CALI_TrendingInline_TabMob_1536x1536_1\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7ESPORTSTYLE%7ECALI+DREAM%7E23SS_ECOM_MF_SP_CALI_TrendingInline_TabMob_1536x1536_1.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7ESPORTSTYLE\%7ELUXE\+SPORT\%7E23SS_ECOM_MF_SP_SELECT_LUXE-SPORT_FullBleedHero_Desktop_1440x500_1\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7ESPORTSTYLE%7ELUXE+SPORT%7E23SS_ECOM_MF_SP_SELECT_LUXE-SPORT_FullBleedHero_Desktop_1440x500_1.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7ESPORTSTYLE\%7EMayze\+ft\.\+Dua\+Lipa\%7E23SS_ECOM_MF_SP_MAYZE-STACK_FeatureHero_TabMob_Large_1536x1536_1\.jpg\/fmt\/jpg\/fmt\/png\)\] {
+  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7ESPORTSTYLE%7EMayze+ft.+Dua+Lipa%7E23SS_ECOM_MF_SP_MAYZE-STACK_FeatureHero_TabMob_Large_1536x1536_1.jpg/fmt/jpg/fmt/png);
+}
+
+.bg-gradient-to-tr {
+  background-image: linear-gradient(to top right, var(--tw-gradient-stops));
+}
+
 .from-\[green\] {
   --tw-gradient-from: green var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(0 128 0 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.from-neutral-200 {
+  --tw-gradient-from: #e5e5e5 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(229 229 229 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
@@ -1918,9 +2046,19 @@ video {
   padding-right: 0.5rem;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-5 {
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .pb-8 {
@@ -2008,6 +2146,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .font-semibold {
@@ -2104,6 +2246,11 @@ video {
 .text-yellow-700 {
   --tw-text-opacity: 1;
   color: rgb(161 98 7 / var(--tw-text-opacity));
+}
+
+.text-yellow-50 {
+  --tw-text-opacity: 1;
+  color: rgb(254 252 232 / var(--tw-text-opacity));
 }
 
 .underline {
