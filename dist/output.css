@@ -840,10 +840,6 @@ video {
   width: 100%;
 }
 
-.w-\[80vh\] {
-  width: 80vh;
-}
-
 .flex-shrink {
   flex-shrink: 1;
 }
@@ -1176,18 +1172,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-1 {
-  grid-template-rows: repeat(1, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1374,10 +1358,6 @@ video {
 
 .gap-2 {
   gap: 0.5rem;
-}
-
-.gap-0 {
-  gap: 0px;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1804,6 +1784,16 @@ video {
   border-style: none;
 }
 
+.border-teal-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(240 253 250 / var(--tw-border-opacity));
+}
+
+.border-white {
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#181818\] {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 24 / var(--tw-bg-opacity));
@@ -1845,30 +1835,6 @@ video {
 
 .bg-\[url\(\.\.\/pumaimage\.webp\)\] {
   background-image: url(../pumaimage.webp);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/307193\/01\/sv01\/fnd\/DFA\/fmt\/png\/Scuderia-Ferrari-Drift-Cat-Decima-Motorsport-Shoes\)\] {
-  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/307193/01/sv01/fnd/DFA/fmt/png/Scuderia-Ferrari-Drift-Cat-Decima-Motorsport-Shoes);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/386450\/01\/sv01\/fnd\/DFA\/fmt\/png\/Mayze-Stack-Retro-Grade-Sneakers-Women\)\] {
-  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/386450/01/sv01/fnd/DFA/fmt/png/Mayze-Stack-Retro-Grade-Sneakers-Women);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/f_auto\2c q_auto\2c b_rgb\:fafafa\2c w_350\2c h_350\/global\/390986\/02\/sv01\/fnd\/DFA\/fmt\/png\/Cilia-Space-Metallics-Sneakers-Women\)\] {
-  background-image: url(https://images.puma.com/image/upload/f_auto,q_auto,b_rgb:fafafa,w_350,h_350/global/390986/02/sv01/fnd/DFA/fmt/png/Cilia-Space-Metallics-Sneakers-Women);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EKids\%7EEEA-mobile-version-pokemon-aw22-k\.jpg\/fmt\/jpg\/fmt\/png\)\] {
-  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EKids%7EEEA-mobile-version-pokemon-aw22-k.jpg/fmt/jpg/fmt/png);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EMen\%7E23SS_GE_Ecom_Spring_Keystory1_Group3_00223_1536x1536px\.jpg\/fmt\/jpg\/fmt\/png\)\] {
-  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EMen%7E23SS_GE_Ecom_Spring_Keystory1_Group3_00223_1536x1536px.jpg/fmt/jpg/fmt/png);
-}
-
-.bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7EGENERIC\%7EWomen\%7E23SS_GE_Ecom_Spring_Keystory1_Group5_00214_1536x1536px\.jpg\/fmt\/jpg\/fmt\/png\)\] {
-  background-image: url(https://images.puma.com/image/upload/q_auto,f_auto,w_1440/regional/%7Eregional%7EDFA%7Eothers%7EKOPs%7E23SS%7EGENERIC%7EWomen%7E23SS_GE_Ecom_Spring_Keystory1_Group5_00214_1536x1536px.jpg/fmt/jpg/fmt/png);
 }
 
 .bg-\[url\(https\:\/\/images\.puma\.com\/image\/upload\/q_auto\2c f_auto\2c w_1440\/regional\/\%7Eregional\%7EDFA\%7Eothers\%7EKOPs\%7E23SS\%7ESPORTSTYLE\%7ELUXE\+SPORT\%7E23SS_ECOM_MF_SP_SELECT_LUXE-SPORT_FullBleedHero_Desktop_1440x500_1\.jpg\/fmt\/jpg\/fmt\/png\)\] {
@@ -2008,6 +1974,11 @@ video {
   padding-right: 0.25rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
@@ -2051,6 +2022,16 @@ video {
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.px-7 {
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
 }
 
 .pb-8 {
@@ -2133,6 +2114,11 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-5xl {
