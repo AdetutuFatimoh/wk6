@@ -690,6 +690,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.ml-10 {
+  margin-left: 2.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -1191,6 +1195,86 @@ video {
 
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-\[250px_250px_250px\] {
+  grid-template-columns: 250px 250px 250px;
+}
+
+.grid-cols-\[250px_250px_250px_\] {
+  grid-template-columns: 250px 250px 250px;
+}
+
+.grid-cols-\[250px_250px_250px_250p\] {
+  grid-template-columns: 250px 250px 250px 250p;
+}
+
+.grid-cols-\[250px_250px_250px_250px\] {
+  grid-template-columns: 250px 250px 250px 250px;
+}
+
+.grid-cols-\[250px_250px_250px_250px_500px\] {
+  grid-template-columns: 250px 250px 250px 250px 500px;
+}
+
+.grid-cols-\[150px_250px_250px_250px_500px\] {
+  grid-template-columns: 150px 250px 250px 250px 500px;
+}
+
+.grid-cols-\[150px_150px_250px_250px_500px\] {
+  grid-template-columns: 150px 150px 250px 250px 500px;
+}
+
+.grid-cols-\[150px_150px_150px_250px_500px\] {
+  grid-template-columns: 150px 150px 150px 250px 500px;
+}
+
+.grid-cols-\[150px_150px_150px_150px_500px\] {
+  grid-template-columns: 150px 150px 150px 150px 500px;
+}
+
+.grid-cols-\[150px_150px_200px_150px_500px\] {
+  grid-template-columns: 150px 150px 200px 150px 500px;
+}
+
+.grid-cols-\[150px_150px_250px_150px_500px\] {
+  grid-template-columns: 150px 150px 250px 150px 500px;
+}
+
+.grid-cols-\[150px_150px_250px_150px_0px\] {
+  grid-template-columns: 150px 150px 250px 150px 0px;
+}
+
+.grid-cols-\[150px_150px_250px_150px_700px\] {
+  grid-template-columns: 150px 150px 250px 150px 700px;
+}
+
+.grid-cols-\[250px_150px_250px_150px_700px\] {
+  grid-template-columns: 250px 150px 250px 150px 700px;
+}
+
+.grid-cols-\[250px_250px_250px_150px_700px\] {
+  grid-template-columns: 250px 250px 250px 150px 700px;
+}
+
+.grid-cols-\[250px_250px_250px_250px_700px\] {
+  grid-template-columns: 250px 250px 250px 250px 700px;
+}
+
+.grid-cols-\[200px_250px_250px_250px_700px\] {
+  grid-template-columns: 200px 250px 250px 250px 700px;
+}
+
+.grid-cols-\[200px_200px_250px_250px_700px\] {
+  grid-template-columns: 200px 200px 250px 250px 700px;
+}
+
+.grid-cols-\[200px_200px_250px_200px_700px\] {
+  grid-template-columns: 200px 200px 250px 200px 700px;
+}
+
+.grid-rows-\[250px_250px_250px\] {
+  grid-template-rows: 250px 250px 250px;
 }
 
 .flex-row {
@@ -2645,11 +2729,6 @@ video {
 .hover\:text-gray-400:hover {
   --tw-text-opacity: 1;
   color: rgb(156 163 175 / var(--tw-text-opacity));
-}
-
-.hover\:text-red-600:hover {
-  --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .hover\:text-red-900:hover {
